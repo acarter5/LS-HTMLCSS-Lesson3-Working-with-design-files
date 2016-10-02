@@ -1,0 +1,258 @@
+.cf:after,
+.cf:before {
+  display: block;
+  content: "";
+}
+
+.cf:after {
+  content: "";
+  clear: both;
+}
+
+#lesson {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font: normal 16px Helvetica, Arial, sans-serif;
+  color: #545459;
+  border: 2px solid #999;
+}
+
+#lesson * {
+  box-sizing: border-box;
+}
+
+/*****  Inline  *****/
+
+#lesson section h1,
+#lesson section h2 {
+  color: #ce4a4a;
+  margin: 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#lesson section p {
+  line-height: 35px;
+  margin-bottom: 25px;
+}
+
+#lesson section a {
+  text-decoration: none;
+  color: #545459;
+}
+
+#lesson section .bold {
+  font-weight: bold;
+}
+
+#lesson section .border {
+  border: 2px dashed #555;
+  padding: 30px;
+  margin: 45px;
+  width: 650px;
+}
+
+#lesson section .margin a {
+  margin: 20px;
+}
+
+#lesson section .padding a {
+  padding: 30px;
+  background: green;
+  color: white;
+}
+
+#lesson section .float a {
+  text-align: center;
+  float: left;
+  width: 120px;
+  padding: 25px;
+  margin: 15px;
+  background: green;
+  color: #fff;
+  border: 3px solid darkgreen;
+}
+
+/******   BLOCK    *******/
+
+#lesson .block .wrapper {
+  margin-bottom: 35px;
+}
+
+#lesson .block #ex1 {
+  background-color: dodgerblue;
+  color: #fff;
+}
+
+#lesson .block #ex2 {
+  height: 60px;
+  background-color: green;
+  padding: 20px;
+  color: #fff;
+  margin: 20px;
+}
+
+#lesson .block #ex3 {
+  width: 90px;
+  background-color: tomato;
+  color: #fff;
+}
+
+#lesson .block #fbox1 {
+  background: dodgerblue;
+  color: #fff;
+  border: 1px solid red;
+  float: left;
+}
+
+#lesson .block #fbox2 {
+  background: tomato;
+  color: #fff;
+  border: 1px solid red;
+  float: right;
+}
+
+#lesson .block #fbox3 {
+  background: tomato;
+  color: #fff;
+  float: left;
+  width: 400px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+
+#lesson .block #fbox4 {
+  background:  dodgerblue;
+  color: #fff;
+  float: right;
+  width: 500px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+} 
+
+#lesson .block a {
+  background-color: dodgerblue;
+  color: #fff;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 30px;
+}
+
+/******   INLINE-BLOCK   ******/
+
+#lesson .inline-block nav {
+  text-align: center;
+}
+
+#lesson .inline-block nav a {
+  display: inline-block;
+  width: 180px;
+  color: #fff;
+  background: dodgerblue;
+  text-align: center;
+  padding: 20px 30px;
+  margin: 20px 8px 25px 8px;
+}
+
+#lesson .inline-block:after {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 30px;
+  border-bottom: 2px dashed #545459;
+}
+
+#lesson .pos-fl h1{
+  text-align: center;
+}
+
+#lesson .pos-fl .b1 {
+  background-color: tomato;
+  float: left;
+  color: #fff;
+  text-align: center;
+  width: 450px;
+  height: 100px;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+#lesson .pos-fl .b2 {
+  background-color: dodgerblue;
+  float: left;
+  color: #fff;
+  text-align: center;
+  width: 505px;
+  height: 100px;
+  line-height: 100px;
+  font-weight: bold;
+}
+
+#lesson .pos-fl .b3 {
+  clear: both;
+  background-color: green;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+  width: 955px;
+  margin-bottom: 35px;
+}
+
+#lesson .pos-fl ul {
+  list-style-type: disc;
+  margin: 0 0 45px 40px;
+}
+
+#lesson .pos-fl ul li {
+  font-style: italic;
+  margin-bottom: 10px
+}
+
+#lesson .pos-fl .fixed {
+  position: fixed;
+  border-radius: 10px;
+  left: 35px;
+  bottom: 50px;
+  background-color: dodgerblue;
+  width: 225px;
+  height: 68px;
+  line-height: 68px;
+  text-align: center;
+  color: white;
+}
+
+#lesson .pos-fl .rel {
+  position: relative;
+  border-radius: 10px;
+  right: 90px;
+  top: 45px;
+  margin-bottom: 30px;
+  background-color: tomato;
+  width: 325px;
+  height: 68px;
+  line-height: 68px;
+  text-align: center;
+  color: white;
+}
+
+#lesson .absolute {
+  position: relative;
+}
+
+#lesson .absolute .abs-box {
+  position: absolute;
+  border-radius: 10px;
+  top: -35px;
+  left: 230px;
+  background-color: green;
+  width: 200px;
+  padding: 25px 35px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}

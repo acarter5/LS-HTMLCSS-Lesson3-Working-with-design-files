@@ -1,0 +1,123 @@
+
+ul,ol { list-style: none; }
+h1,h2,h3,h4,h5,h6,pre,code { font-size: 1em; }
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input,dl,dt,dd, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+a img,:link img,:visited img, fieldset { border: none; }
+address { font-style: normal; }
+header, section, article, nav, footer, hgroup, details, summary, figure, main { display: block; }
+mark {
+  color: inherit;
+  background: transparent; }
+abbr { border: none; }
+summary::-webkit-details-marker { display: none; }
+
+/* ------------------------------------------------------------- */
+
+/* -----   Clear Float    -----*/
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: block;
+}
+
+.cf:after {
+  clear: both;
+}
+
+/* -----   Body    -----*/
+
+
+body {
+  font: normal 18px "Roboto Condensed", sans-serif;
+  color: #3e606f;
+  background-image: linear-gradient(to bottom, #d1dbbd, #fcfff5);
+  background-repeat: no-repeat;
+}
+
+/* -----   HEADER    -----*/
+ 
+header {
+  width: 920px;
+  padding:20px 20px 0 20px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  padding: 45px 0 15px 115px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #193441;
+  background: transparent url("camera_icon.png") 0 0 no-repeat;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding: 75px 0 0 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px 40px 14px 40px;
+  color: #91aa9d;
+  text-decoration: none;
+  background: #fcfff5;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+nav a.active {
+  color: #fcfff5;
+  background: #91aa9d;
+}
+
+/* -----   MAIN    -----*/
+
+main {
+  background: #fff;
+  width: 960px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+  clear: both;
+  overflow: hidden;
+  box-shadow: 0 5px 5px #c6c6c4;
+}
+
+main .masthead {
+  width: 100%;
+  margin-bottom: 43px;
+}
+
+main h2 {
+  font-size: 32px;
+  color: #3e606f;
+  margin-bottom: 35px;
+}
+
+ figure {
+  float: right;
+  padding: 0 0 0 30px;
+  margin-bottom: 
+}
+
+main p {
+  padding: 0 0 20px 0;
+}
+
+/* ---- FOOTER ------------ */
+
+footer {
+  width: 960px;
+  margin: 0 auto;
+  padding: 15px 0;
+  font-size: 14px;
+}
